@@ -3,14 +3,4 @@ micronaut:
     name: sqs
   jms:
     sqs:
-      enabled=true:
-sqs:
-  queue-name: 'counter-sqs'
-test-resources:
-  containers:
-    localstack:
-      image-name: localstack/localstack
-aws:
-  services:
-    sqs:
-      endpoint-override: https://localhost
+      enabled: true
