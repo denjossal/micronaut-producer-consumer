@@ -33,7 +33,7 @@ To deploy you application you can run: ```./gradlew run```
     - Java 17
     - Docker
     - Executes for unit test:
-        - ```git clone https://github.com/denjossal/simple-micronaut-app.git```
+        - ```git clone https://github.com/denjossal/micronaut-producer-consumer```
         - ```cd micronaut-producer-consumer```
         - ```./gradlew test```
     - (Optional) check the enviroment variable 'STG'
