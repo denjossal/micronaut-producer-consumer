@@ -1,0 +1,9 @@
+test-resources:
+  containers:
+    localstack:
+      image-name: localstack/localstack
+      hostnames:
+        - localstack-local.host
+      exposed-ports:
+        - sqs-local.port: 4566
+        - dynamodb-local.port: 4566
