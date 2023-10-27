@@ -37,6 +37,7 @@ To deploy you application you can run: ```./gradlew run```
         - ```cd micronaut-producer-consumer```
         - ```./gradlew test```
     - (Optional) check the enviroment variable 'STG'
+    - (Optional) check the enviroment variable 'AWS_REGION'
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
